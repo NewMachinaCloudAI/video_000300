@@ -18,8 +18,8 @@ def read_file_from_s3(bucket_name,file_name):
 def lambda_handler(event, context):
     
     # Initialize
-    bucket_name = "video-000110-bucket"
-    file_name = "video-000300/LambdaS3TestFile.txt"
+    bucket_name = "your-bucket"
+    file_name = "your folder/your file name"
     file_contents = "Momento Mori, Live each day like its your last!"
     
     # Write file to S3
